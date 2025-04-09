@@ -161,7 +161,7 @@ Observe the DHCP traffic appearing in WireShark:
   You'll be obseving a non-stop stream of traffic. Do you know why there is constant traffic in our tcp.port==3389?
 </p>
 <p>
-  The answer is because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted:
+  The answer is because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefore traffic is always being transmitted:
 </p>
 <p>
   <img src="https://i.imgur.com/hNlhTVp.png" height="75%" width="100%" alt="RDP traffic"/>
@@ -170,6 +170,6 @@ Observe the DHCP traffic appearing in WireShark:
   Now that we're finished observing the network, DON'T FORGET TO CLEAN UP YOUR AZURE ENVIRONMENT! This will prevent you from incurring additional charges and you won't be left surprised!
 </p>
 <p>
-  Close your Remote Desktop connection, delete the Resource Group(s) created at the beginning of this tutorial, and verify Resource Group deletion. You'll typically be notified or can click unde the bell notification just to make sure.
+  Close your Remote Desktop connection, delete the Resource Group(s) created at the beginning of this tutorial, and verify Resource Group deletion. You'll typically be notified or can click the bell notification just to make sure.
 </p>
 </p>
